@@ -1,5 +1,5 @@
 {
-  "homepage": " http://prathamayush.github.io/Assignment_SportsDunia",
+  "homepage": "http://prathamayush.github.io/newsdashboard",
   "name": "app1",
   "version": "0.1.0",
   "private": true,
@@ -28,10 +28,11 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "CI=false next build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
